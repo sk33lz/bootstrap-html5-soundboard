@@ -13,6 +13,7 @@ img/*.png
 !audio/chewbacca.*
 !audio/luck.*
 !audio/raven.*
+!img/angry.png
 !img/chewbacca.png
 !img/luck.png
 !img/raven.png
