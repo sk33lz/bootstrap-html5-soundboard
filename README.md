@@ -1,14 +1,14 @@
 ## About
 
-Flash Soundboards are a dying breed, so I wanted to make a soundboard boilerplate that will take soundboards into the next century.
+Flash Soundboards are a dying breed, so I wanted to make a soundboard boilerplate that will take soundboards into the next century using HTML5.
 
 Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is required!
 
 ## Features
 
-- Plays HTML5 compatible audio files like mp3 and ogg.
+- Plays HTML5 compatible audio files like M4A, MP3, OGG, and WAV.
 - Works in all modern browsers that support the HTML5 <audio> tag.
-- Works most devices.
+- Responsive, mobile-friendly design works on mobile devices.
 - No need for Flash!
 
 ## Installation
@@ -17,9 +17,9 @@ Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is requir
 
 2. Unpack the archive to your web server or local machine.
 
-3. Add images in .png or .jpg format that are 138px Wide and 120px High to the `img` folder for the best results.
+3. Add images in .png format that are 138px Wide and 120px High to the `img` folder for the best results.
 
-4. Add audio files in HTML5 <audio> tag compatible formats like .mp3, .m4a, .ogg, or .wav format to the `audio` folder.
+4. Add audio files in HTML5 `<audio>` tag compatible formats like .mp3, .m4a, .ogg, or .wav format to the `audio` folder.
 
 5. Esure that the audio file and image files are the same name.
 
@@ -27,7 +27,7 @@ Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is requir
 	chewbacca.mp3
 	chewbacca.png
 
-4. Edit the index.html and modify the example code with your file names.
+4. Edit the `index.html` and modify the source code with your file names.
 
 5. Edit the CSS class on the `<audio>` tag to have the same name as your file. This will ensure the JS sets up the proper unordered list rendering the image with the `<audio>` tag.
 
@@ -36,7 +36,7 @@ Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is requir
 
 ## Adding Additional Sound Clips and Images
 
-1. Copy the last full <audio> tag lines and paste them below those lines to add another entry. 
+1. Copy the last full `<audio>` tag lines and paste them below those lines to add another entry. 
 
 2. Looking at the source code's `index.html` you would copy the following lines, Lines 84-88, and paste them on the following line, Line 89.
 
