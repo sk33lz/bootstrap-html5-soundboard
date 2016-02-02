@@ -4,7 +4,7 @@
 
 Flash Soundboards are a dying breed, so I wanted to make a soundboard boilerplate that will take soundboards into the next century using HTML5.
 
-Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is required!
+Bootstrap HTML5 Soundboard runs strictly on HTML5, jQuery, and CSS. No Flash is required!
 
 ## Features
 
