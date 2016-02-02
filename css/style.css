@@ -1,0 +1,28 @@
+.list{
+	padding-left:0}
+.list li{
+	list-style-type:none}
+.floated li{
+	float:left}
+audio{
+	display:none}
+.soundboard{
+	margin-top:0}
+.soundboard li{
+	width:50%;
+	margin-bottom:20px;
+	margin-bottom:2rem}
+.soundboard li a{
+	display:block;
+	background-repeat:no-repeat;
+	background-position:center center;
+	max-width:100%;
+	text-align:center}
+.soundboard li a img{
+	max-width:100%}
+.soundboard li a:hover{
+	-moz-opacity:.8;
+	-khtml-opacity:.8;
+	-webkit-opacity:.8;
+	opacity:.8;
+	filter:alpha(opacity=80)}
