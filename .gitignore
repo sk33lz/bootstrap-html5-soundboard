@@ -1,4 +1,9 @@
-.project
-.settings
+#Exclude
 audio/*.mp3
 audio/*.ogg
+audio/*.m4a
+img/*.png
+
+#Include
+!img/chewbacca.png
+!audio/chewbacca.ogg
