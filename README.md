@@ -23,7 +23,7 @@ Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is requir
 
 4. Add audio files in HTML5 `<audio>` tag compatible formats like .mp3, .m4a, .ogg, or .wav format to the `audio` folder.
 
-5. Esure that the audio file and image files are the same name.
+5. Ensure that the audio file and image files are the same name.
 
         Example:
 	    chewbacca.mp3
@@ -35,6 +35,12 @@ Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is requir
 
         Example:
 	    <audio class="chewbacca" title="Chewbacca Clip">
+		
+## Using the Soundboard
+
+1. Open up the `index.html` file to view the soundboard.
+
+2. Click an image to play it's `<audio>` sound clip.
 
 ## Adding Additional Sound Clips and Images
 
@@ -55,6 +61,18 @@ Bootstrap HTML5 Soundboard runs on strictly on HTML5 and CSS. No Flash is requir
 5. Modify the `<audio>` title to what you would like users to see when they mouseover the image.
 		
 6. Rinse and repeat these steps for additional soundboard entries with audio clips with images. Just make sure that your `<audio>` class name, your image name, and your `<audio>` src clip name match, or the jQuery won't work properly in rendering the soundboard.
+
+## Issues
+
+Found an issue with this script? Please [Submit an Issue](https://github.com/sk33lz/bootstrap-html5-soundboard/issues) on GitHub.
+
+## Feature Requests
+
+Want to see something new in this script? Please [Submit a Pull Request](https://github.com/sk33lz/bootstrap-html5-soundboard/pulls) on GitHub. If it's something useful I will merge it into the codebase.
+
+## Learn More
+
+Learn more about the Bootstrap HTML5 Soundboard on the [Wiki page](https://github.com/sk33lz/bootstrap-html5-soundboard/wiki) on GitHub.
 
 ## Credits
 
